@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* HEADER START */
 .header {
   background: #002feb;

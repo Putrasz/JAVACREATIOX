@@ -6,7 +6,6 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
-
 // Close menu when clicking outside
 document.addEventListener("click", (e) => {
   if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {

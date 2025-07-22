@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* HEADER START */
 .header {
   background: #002feb;
@@ -411,8 +415,7 @@
   margin-bottom: 30px;
   text-align: left;
   letter-spacing: 3px;
-
-  }
+}
 
 /* Developer Services Section */
 .developer-services {
@@ -447,15 +450,15 @@
 }
 
 .card.basic .card-header {
-  background: #929DC9;
+  background: #929dc9;
 }
 
 .card.standard .card-header {
-  background: #5D75D7;
+  background: #5d75d7;
 }
 
 .card.premium .card-header {
-  background: #929DC9;
+  background: #929dc9;
 }
 
 .card-header h3 {
@@ -513,7 +516,7 @@
 .cctv-title {
   font-size: 2.2rem;
   font-weight: bold;
-  color: #002FEB;
+  color: #002feb;
   margin-bottom: 10px;
   line-height: 1.2;
   max-width: 500px;
@@ -525,7 +528,7 @@
 }
 
 .cctv-price-box {
-  background: #002FEB;
+  background: #002feb;
   color: white;
   padding: 25px;
   border-radius: 20px;
@@ -560,7 +563,7 @@
 }
 
 .info-box {
-  background: #002FEB;
+  background: #002feb;
   color: white;
   padding: 25px;
   border-radius: 15px;
@@ -604,7 +607,7 @@
 }
 
 .cta-button {
-  background: #002FEB;
+  background: #002feb;
   color: white;
   border: none;
   padding: 18px 40px;

@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* HEADER START */
 .header {
   background: #002feb;
@@ -325,7 +329,6 @@
   background-position: center;
   height: 70vh;
   margin-top: 90px;
-  display: flex;
   align-items: center;
   padding: 0 50px;
   background-color: rgba(0, 30, 255, 1);
