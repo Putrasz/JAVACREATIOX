@@ -54,7 +54,6 @@ body {
   text-align: center;
 }
 
-/* Mobile responsive */
 @media (max-width: 768px) {
   .header {
     justify-content: center;
@@ -85,7 +84,6 @@ body {
   }
 }
 
-/* Small mobile */
 @media (max-width: 599px) {
   .header {
     flex-direction: column;
@@ -117,7 +115,6 @@ body {
   }
 }
 
-/* Large screens */
 @media (min-width: 1200px) {
   .p-header {
     font-size: 15px;
